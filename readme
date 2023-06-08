@@ -1,7 +1,7 @@
 To access the kubeconfig for your cluster via the VCN-Native public endpoint, copy the following command:
-oci ce cluster create-kubeconfig --cluster-id ocid1.cluster.oc1.sa-saopaulo-1.aaaaaaaasllzgldcevpfumerumav3gniedcxocldf7ezfshizcp7mh3ie7ka --file $HOME/.kube/config --region sa-saopaulo-1 --token-version 2.0.0  --kube-endpoint PUBLIC_ENDPOINT
+oci ce cluster create-kubeconfig --cluster-id [cluster OCID] --file $HOME/.kube/config --region sa-saopaulo-1 --token-version 2.0.0  --kube-endpoint PUBLIC_ENDPOINT
 
 
 To access the kubeconfig for your cluster via the VCN-Native private endpoint, copy the following command:
-oci ce cluster create-kubeconfig --cluster-id [cluster id] --file $HOME/.kube/config --region sa-saopaulo-1 --token-version 2.0.0  --kube-endpoint PRIVATE_ENDPOINT
+oci ce cluster create-kubeconfig --cluster-id [cluster OCID] --file $HOME/.kube/config --region sa-saopaulo-1 --token-version 2.0.0  --kube-endpoint PRIVATE_ENDPOINT
 
