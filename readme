@@ -7,16 +7,20 @@ oci ce cluster create-kubeconfig --cluster-id [cluster OCID] --file $HOME/.kube/
 
 
 original structure:
-ssh (folder)
-.terraform (folder)
-resources.tf
-compartments.tf
-main.tf
-terraform.tfvars
-variables.tf
-.terraform.lock.hcl
-output.tf
-terraform.tfstate
-readme
-terraform.tfstate.backup
-.gitignore
+Mode      Name
+----      ------ ----
+d-----    ssh
+d-----    .terraform
+------    okecluster.tf
+------    compartments.tf
+------    main.tf
+------    network.tf
+------    terraform.tfvars
+------    variables.tf
+------    .terraform.lock.hcl
+------    output.tf
+------    terraform.tfstate
+------    readme
+------    terraform.tfstate.backup
+------    .gitignore
+------    okenodes.tf
