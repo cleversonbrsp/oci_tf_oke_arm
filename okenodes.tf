@@ -15,7 +15,7 @@ resource "oci_containerengine_node_pool" "create_node_pool_details0" {
 			"OKEnodePoolName" = "pool1"
 		}
 		placement_configs {
-			availability_domain = "oEOm:SA-SAOPAULO-1-AD-1"
+			availability_domain = var.oci_ad
 			subnet_id = "${oci_core_subnet.node_subnet.id}"
 		}
 		size = "1"

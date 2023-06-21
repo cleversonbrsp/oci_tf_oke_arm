@@ -1,7 +1,7 @@
 ssh/
 .terraform/
 network.tf.bkp
-terraform.tfvars
+terraform.tfvars.bkp
 terraform.tfstate
 terraform.tfstate.backup
 .terraform.lock.hcl
