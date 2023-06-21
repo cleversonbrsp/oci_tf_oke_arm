@@ -1,4 +1,4 @@
-ssh/
+keys/
 .terraform/
 network.tf.bkp
 terraform.tfvars.bkp
